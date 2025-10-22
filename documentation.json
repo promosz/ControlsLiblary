@@ -1,0 +1,434 @@
+{
+    "pipes": [],
+    "interfaces": [],
+    "injectables": [],
+    "guards": [],
+    "interceptors": [],
+    "classes": [],
+    "directives": [],
+    "components": [],
+    "modules": [],
+    "miscellaneous": {
+        "variables": [
+            {
+                "name": "Added",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '5',\n    variant: 'added',\n    size: 'medium',\n  },\n}"
+            },
+            {
+                "name": "AllVariants",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  render: () => ({\n    template: `\n      <div style=\"display: flex; flex-direction: column; gap: 16px; align-items: flex-start;\">\n        <div style=\"display: flex; gap: 8px; align-items: center; flex-wrap: wrap;\">\n          <cl-badge label=\"25\" variant=\"default\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"defaultBold\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primary\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primaryInverted\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"important\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"5\" variant=\"added\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"3\" variant=\"removed\" size=\"medium\"></cl-badge>\n        </div>\n        \n        <div style=\"display: flex; gap: 8px; align-items: center; flex-wrap: wrap;\">\n          <cl-badge label=\"25\" variant=\"primary\" size=\"small\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primary\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primary\" size=\"large\"></cl-badge>\n        </div>\n        \n        <div style=\"display: flex; gap: 8px; align-items: center; flex-wrap: wrap;\">\n          <cl-badge label=\"1\" variant=\"default\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"99+\" variant=\"important\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"New\" variant=\"added\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"Updated\" variant=\"primary\" size=\"medium\"></cl-badge>\n        </div>\n      </div>\n    `,\n  }),\n}"
+            },
+            {
+                "name": "Default",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'default',\n    size: 'medium',\n  },\n}"
+            },
+            {
+                "name": "DefaultBold",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'defaultBold',\n    size: 'medium',\n  },\n}"
+            },
+            {
+                "name": "Important",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'important',\n    size: 'medium',\n  },\n}"
+            },
+            {
+                "name": "Large",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primary',\n    size: 'large',\n  },\n}"
+            },
+            {
+                "name": "meta",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Meta<BadgeComponent>",
+                "defaultValue": "{\n  title: 'Components/Badge',\n  component: BadgeComponent,\n  parameters: {\n    layout: 'centered',\n  },\n  tags: ['autodocs'],\n  argTypes: {\n    label: {\n      control: 'text',\n      description: 'Badge text content',\n    },\n    variant: {\n      control: 'select',\n      options: ['default', 'defaultBold', 'primary', 'primaryInverted', 'important', 'added', 'removed'],\n      description: 'Badge variant style',\n    },\n    size: {\n      control: 'select',\n      options: ['small', 'medium', 'large'],\n      description: 'Badge size',\n    },\n  },\n}"
+            },
+            {
+                "name": "preview",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/.storybook/preview.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Preview",
+                "defaultValue": "{\n  parameters: {\n    controls: {\n      matchers: {\n       color: /(background|color)$/i,\n       date: /Date$/i,\n      },\n    },\n  },\n}"
+            },
+            {
+                "name": "Primary",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primary',\n    size: 'medium',\n  },\n}"
+            },
+            {
+                "name": "PrimaryInverted",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primaryInverted',\n    size: 'medium',\n  },\n}"
+            },
+            {
+                "name": "Removed",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '3',\n    variant: 'removed',\n    size: 'medium',\n  },\n}"
+            },
+            {
+                "name": "Small",
+                "ctype": "miscellaneous",
+                "subtype": "variable",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "type": "Story",
+                "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primary',\n    size: 'small',\n  },\n}"
+            }
+        ],
+        "functions": [],
+        "typealiases": [
+            {
+                "name": "Story",
+                "ctype": "miscellaneous",
+                "subtype": "typealias",
+                "rawtype": "StoryObj<BadgeComponent>",
+                "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "deprecated": false,
+                "deprecationMessage": "",
+                "description": "",
+                "kind": 184
+            }
+        ],
+        "enumerations": [],
+        "groupedVariables": {
+            "projects/controls-library/src/lib/badge/badge.component.stories.ts": [
+                {
+                    "name": "Added",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '5',\n    variant: 'added',\n    size: 'medium',\n  },\n}"
+                },
+                {
+                    "name": "AllVariants",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  render: () => ({\n    template: `\n      <div style=\"display: flex; flex-direction: column; gap: 16px; align-items: flex-start;\">\n        <div style=\"display: flex; gap: 8px; align-items: center; flex-wrap: wrap;\">\n          <cl-badge label=\"25\" variant=\"default\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"defaultBold\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primary\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primaryInverted\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"important\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"5\" variant=\"added\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"3\" variant=\"removed\" size=\"medium\"></cl-badge>\n        </div>\n        \n        <div style=\"display: flex; gap: 8px; align-items: center; flex-wrap: wrap;\">\n          <cl-badge label=\"25\" variant=\"primary\" size=\"small\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primary\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"25\" variant=\"primary\" size=\"large\"></cl-badge>\n        </div>\n        \n        <div style=\"display: flex; gap: 8px; align-items: center; flex-wrap: wrap;\">\n          <cl-badge label=\"1\" variant=\"default\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"99+\" variant=\"important\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"New\" variant=\"added\" size=\"medium\"></cl-badge>\n          <cl-badge label=\"Updated\" variant=\"primary\" size=\"medium\"></cl-badge>\n        </div>\n      </div>\n    `,\n  }),\n}"
+                },
+                {
+                    "name": "Default",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'default',\n    size: 'medium',\n  },\n}"
+                },
+                {
+                    "name": "DefaultBold",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'defaultBold',\n    size: 'medium',\n  },\n}"
+                },
+                {
+                    "name": "Important",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'important',\n    size: 'medium',\n  },\n}"
+                },
+                {
+                    "name": "Large",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primary',\n    size: 'large',\n  },\n}"
+                },
+                {
+                    "name": "meta",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Meta<BadgeComponent>",
+                    "defaultValue": "{\n  title: 'Components/Badge',\n  component: BadgeComponent,\n  parameters: {\n    layout: 'centered',\n  },\n  tags: ['autodocs'],\n  argTypes: {\n    label: {\n      control: 'text',\n      description: 'Badge text content',\n    },\n    variant: {\n      control: 'select',\n      options: ['default', 'defaultBold', 'primary', 'primaryInverted', 'important', 'added', 'removed'],\n      description: 'Badge variant style',\n    },\n    size: {\n      control: 'select',\n      options: ['small', 'medium', 'large'],\n      description: 'Badge size',\n    },\n  },\n}"
+                },
+                {
+                    "name": "Primary",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primary',\n    size: 'medium',\n  },\n}"
+                },
+                {
+                    "name": "PrimaryInverted",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primaryInverted',\n    size: 'medium',\n  },\n}"
+                },
+                {
+                    "name": "Removed",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '3',\n    variant: 'removed',\n    size: 'medium',\n  },\n}"
+                },
+                {
+                    "name": "Small",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Story",
+                    "defaultValue": "{\n  args: {\n    label: '25',\n    variant: 'primary',\n    size: 'small',\n  },\n}"
+                }
+            ],
+            "projects/controls-library/.storybook/preview.ts": [
+                {
+                    "name": "preview",
+                    "ctype": "miscellaneous",
+                    "subtype": "variable",
+                    "file": "projects/controls-library/.storybook/preview.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "type": "Preview",
+                    "defaultValue": "{\n  parameters: {\n    controls: {\n      matchers: {\n       color: /(background|color)$/i,\n       date: /Date$/i,\n      },\n    },\n  },\n}"
+                }
+            ]
+        },
+        "groupedFunctions": {},
+        "groupedEnumerations": {},
+        "groupedTypeAliases": {
+            "projects/controls-library/src/lib/badge/badge.component.stories.ts": [
+                {
+                    "name": "Story",
+                    "ctype": "miscellaneous",
+                    "subtype": "typealias",
+                    "rawtype": "StoryObj<BadgeComponent>",
+                    "file": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                    "deprecated": false,
+                    "deprecationMessage": "",
+                    "description": "",
+                    "kind": 184
+                }
+            ]
+        }
+    },
+    "routes": {
+        "name": "<root>",
+        "kind": "module",
+        "children": []
+    },
+    "coverage": {
+        "count": 0,
+        "status": "low",
+        "files": [
+            {
+                "filePath": "projects/controls-library/.storybook/preview.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "preview",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Added",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "AllVariants",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Default",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "DefaultBold",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Important",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Large",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "meta",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Primary",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "PrimaryInverted",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Removed",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "variable",
+                "linktype": "miscellaneous",
+                "linksubtype": "variable",
+                "name": "Small",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            },
+            {
+                "filePath": "projects/controls-library/src/lib/badge/badge.component.stories.ts",
+                "type": "type alias",
+                "linktype": "miscellaneous",
+                "linksubtype": "typealias",
+                "name": "Story",
+                "coveragePercent": 0,
+                "coverageCount": "0/1",
+                "status": "low"
+            }
+        ]
+    }
+}

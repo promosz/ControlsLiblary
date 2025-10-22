@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 import { ButtonComponent } from './button.component';
 
 @Component({
-  selector: 'app-test',
-  standalone: true,
-  imports: [ButtonComponent],
-  template: `
+    selector: 'app-test',
+    imports: [ButtonComponent],
+    template: `
     <div style="padding: 20px;">
       <h2>Test Button Component</h2>
       <cl-button 
@@ -17,7 +16,7 @@ import { ButtonComponent } from './button.component';
       </cl-button>
     </div>
   `,
-  styles: []
+    styles: []
 })
 export class TestComponent {
   onClick() {

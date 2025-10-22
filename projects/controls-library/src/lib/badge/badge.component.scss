@@ -1,0 +1,77 @@
+span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 4px 8px;
+  min-width: 20px;
+  height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Default variant */
+.cl-badge--default {
+  background-color: #f3f4f6;
+  color: #172023;
+}
+
+/* Default Bold variant */
+.cl-badge--defaultBold {
+  background-color: #172023;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Primary variant */
+.cl-badge--primary {
+  background-color: #317b74;
+  color: #ffffff;
+}
+
+/* Primary Inverted variant */
+.cl-badge--primaryInverted {
+  background-color: #ffffff;
+  color: #317b74;
+  border: 1px solid #317b74;
+}
+
+/* Important variant */
+.cl-badge--important {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+/* Added variant */
+.cl-badge--added {
+  background-color: #10b981;
+  color: #ffffff;
+}
+
+/* Removed variant */
+.cl-badge--removed {
+  background-color: #ef4444;
+  color: #ffffff;
+}
+
+/* Size variants */
+.cl-badge--small {
+  font-size: 10px;
+  line-height: 14px;
+  padding: 2px 6px;
+  min-width: 16px;
+  height: 16px;
+}
+
+.cl-badge--large {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 6px 10px;
+  min-width: 24px;
+  height: 24px;
+}
