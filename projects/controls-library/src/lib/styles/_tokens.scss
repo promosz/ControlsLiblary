@@ -1,0 +1,125 @@
+// Design Tokens - Controls Library
+// Based on Figma design analysis
+
+// ===== COLORS =====
+:root {
+  // Primary Colors
+  --cl-primary-500: #317b74;
+  --cl-primary-600: #2a6b65;
+  --cl-primary-700: #235b56;
+  
+  // Secondary Colors  
+  --cl-secondary-500: #6b7280;
+  --cl-secondary-600: #4b5563;
+  --cl-secondary-700: #374151;
+  
+  // Danger Colors
+  --cl-danger-500: #ef4444;
+  --cl-danger-600: #dc2626;
+  --cl-danger-700: #b91c1c;
+  
+  // Neutral Colors
+  --cl-neutral-0: #ffffff;
+  --cl-neutral-50: #f9fafb;
+  --cl-neutral-100: #f3f4f6;
+  --cl-neutral-200: #e5e7eb;
+  --cl-neutral-300: #d1d5db;
+  --cl-neutral-400: #9ca3af;
+  --cl-neutral-500: #6b7280;
+  --cl-neutral-600: #4b5563;
+  --cl-neutral-700: #374151;
+  --cl-neutral-800: #1f2937;
+  --cl-neutral-900: #111827;
+  
+  // Text Colors
+  --cl-text-primary: var(--cl-neutral-900);
+  --cl-text-secondary: var(--cl-neutral-600);
+  --cl-text-disabled: var(--cl-neutral-400);
+  --cl-text-on-primary: var(--cl-neutral-0);
+  --cl-text-on-secondary: var(--cl-neutral-0);
+  --cl-text-on-danger: var(--cl-neutral-0);
+  
+  // Background Colors
+  --cl-bg-primary: var(--cl-primary-500);
+  --cl-bg-secondary: var(--cl-secondary-500);
+  --cl-bg-danger: var(--cl-danger-500);
+  --cl-bg-disabled: var(--cl-neutral-200);
+  
+  // Border Colors
+  --cl-border-primary: var(--cl-primary-500);
+  --cl-border-secondary: var(--cl-secondary-500);
+  --cl-border-danger: var(--cl-danger-500);
+  --cl-border-disabled: var(--cl-neutral-300);
+}
+
+// ===== TYPOGRAPHY =====
+:root {
+  // Font Family
+  --cl-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  // Font Sizes
+  --cl-text-xs: 12px;
+  --cl-text-sm: 14px;
+  --cl-text-base: 16px;
+  --cl-text-lg: 18px;
+  --cl-text-xl: 20px;
+  
+  // Font Weights
+  --cl-font-normal: 400;
+  --cl-font-medium: 500;
+  --cl-font-semibold: 600;
+  --cl-font-bold: 700;
+  
+  // Line Heights
+  --cl-leading-tight: 1.25;
+  --cl-leading-normal: 1.5;
+  --cl-leading-relaxed: 1.625;
+}
+
+// ===== SPACING =====
+:root {
+  --cl-space-1: 4px;
+  --cl-space-2: 8px;
+  --cl-space-3: 12px;
+  --cl-space-4: 16px;
+  --cl-space-5: 20px;
+  --cl-space-6: 24px;
+  --cl-space-8: 32px;
+  --cl-space-10: 40px;
+  --cl-space-12: 48px;
+}
+
+// ===== BORDER RADIUS =====
+:root {
+  --cl-radius-none: 0;
+  --cl-radius-sm: 4px;
+  --cl-radius-md: 8px;
+  --cl-radius-lg: 12px;
+  --cl-radius-xl: 16px;
+  --cl-radius-full: 9999px;
+}
+
+// ===== SHADOWS =====
+:root {
+  --cl-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --cl-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --cl-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+// ===== TRANSITIONS =====
+:root {
+  --cl-transition-fast: 150ms ease-in-out;
+  --cl-transition-normal: 200ms ease-in-out;
+  --cl-transition-slow: 300ms ease-in-out;
+}
+
+// ===== Z-INDEX =====
+:root {
+  --cl-z-dropdown: 1000;
+  --cl-z-sticky: 1020;
+  --cl-z-fixed: 1030;
+  --cl-z-modal-backdrop: 1040;
+  --cl-z-modal: 1050;
+  --cl-z-popover: 1060;
+  --cl-z-tooltip: 1070;
+}
