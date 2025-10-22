@@ -4,3 +4,6 @@
 
 export * from './lib/controls-library.service';
 export * from './lib/controls-library.component';
+
+// Button Component
+export * from './lib/button/button.component';

@@ -123,3 +123,51 @@
   --cl-z-popover: 1060;
   --cl-z-tooltip: 1070;
 }
+
+// ===== BUTTON SPECIFIC TOKENS =====
+:root {
+  // Button Colors - Primary
+  --cl-button-primary-bg: var(--cl-primary-500);
+  --cl-button-primary-text: var(--cl-text-on-primary);
+  --cl-button-primary-border: var(--cl-primary-500);
+  
+  // Button Colors - Secondary
+  --cl-button-secondary-bg: rgba(49, 123, 116, 0.14);
+  --cl-button-secondary-text: #2b605c;
+  --cl-button-secondary-border: rgba(49, 123, 116, 0.32);
+  
+  // Button Colors - Tertiary
+  --cl-button-tertiary-bg: transparent;
+  --cl-button-tertiary-text: var(--cl-primary-500);
+  --cl-button-tertiary-border: transparent;
+  
+  // Button Colors - Danger
+  --cl-button-danger-bg: var(--cl-danger-500);
+  --cl-button-danger-text: var(--cl-text-on-danger);
+  --cl-button-danger-border: var(--cl-danger-500);
+  
+  // Button Colors - Invisible
+  --cl-button-invisible-bg: transparent;
+  --cl-button-invisible-text: var(--cl-primary-500);
+  --cl-button-invisible-border: transparent;
+  
+  // Button Sizes
+  --cl-button-height-24: 24px;
+  --cl-button-height-32: 32px;
+  --cl-button-height-40: 40px;
+  --cl-button-height-48: 48px;
+  
+  // Button Padding
+  --cl-button-padding-horizontal: var(--cl-space-4);
+  --cl-button-padding-vertical: var(--cl-space-1);
+  --cl-button-gap: var(--cl-space-1);
+  
+  // Button Border Radius
+  --cl-button-radius: var(--cl-radius-full);
+  
+  // Button Icon Sizes
+  --cl-button-icon-24: 16px;
+  --cl-button-icon-32: 20px;
+  --cl-button-icon-40: 20px;
+  --cl-button-icon-48: 24px;
+}

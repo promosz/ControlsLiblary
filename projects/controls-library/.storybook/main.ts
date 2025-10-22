@@ -1,27 +1,20 @@
 import type { StorybookConfig } from '@storybook/angular';
 
 const config: StorybookConfig = {
-  stories: ['../src/**/*.stories.@(js|jsx|ts|tsx|mdx)'],
-  addons: [
-    '@storybook/addon-essentials',
-    '@storybook/addon-interactions',
-    '@storybook/addon-docs',
+  "stories": [
+    "../src/**/*.mdx",
+    "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"
   ],
-  framework: {
-    name: '@storybook/angular',
-    options: {},
+  "addons": [
+    "@storybook/addon-essentials",
+    "@storybook/addon-interactions"
+  ],
+  "framework": {
+    "name": "@storybook/angular",
+    "options": {}
   },
-  docs: {
-    autodocs: 'tag',
-  },
-  typescript: {
-    check: false,
-    reactDocgen: 'react-docgen-typescript',
-    reactDocgenTypescriptOptions: {
-      shouldExtractLiteralValuesFromEnum: true,
-      propFilter: (prop) => (prop.parent ? !/node_modules/.test(prop.parent.fileName) : true),
-    },
-  },
+  "typescript": {
+    "check": false
+  }
 };
-
 export default config;
